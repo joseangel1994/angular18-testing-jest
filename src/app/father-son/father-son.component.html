@@ -1,0 +1,8 @@
+<h5>Son</h5>
+<code id="client-code">{{ client | json}}</code>
+<br>
+
+@if (client) {
+  <button id="btn-change" (click)="onChange(5)">Cambiar ID</button>
+  <button id="btn-delete" (click)="onDelete()">Borrar cliente</button>
+}

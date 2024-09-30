@@ -1,0 +1,8 @@
+<h2>Father</h2>
+<button (click)="onSetClient('test')">Cargar cliente</button>
+<br>
+
+<code>{{ client | json}}</code>
+<hr>
+
+<app-father-son [client]="client" (onDeleteClient)="client = undefined" (onClientUpdated)="client = $event"></app-father-son>

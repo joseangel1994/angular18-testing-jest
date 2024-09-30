@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FatherSonComponent should match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <h5>
+    Son
+  </h5>
+  <code>
+    
+  </code>
+  <br />
+  
+</div>
+`;
